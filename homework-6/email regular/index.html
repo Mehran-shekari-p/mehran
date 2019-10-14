@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bs/css/bootstrap.css">
+    <title>Document</title>
+
+
+    <style>
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        
+        html {
+            font-size: 10px;
+        }
+        
+        body {
+            font-family: sans-serif;
+            background-color: whitesmoke;
+        }
+        
+        .form {
+            width: 40rem;
+            height: 40rem;
+            border: 1px solid #000;
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            position: absolute;
+            left: 50%;
+            top: 10%;
+            transform: translate(-50%);
+            border-radius: .7rem;
+        }
+        
+        p {
+            font-size: 2.5rem;
+            margin: 2rem;
+        }
+        
+        input {
+            height: 5rem;
+            border: none;
+            background-color: rgb(212, 208, 208);
+            border-radius: .7rem;
+            margin: 2rem;
+            padding: .5rem;
+            font-size: 1.5rem;
+            outline: none;
+        }
+        
+        button {
+            width: 50%;
+            align-self: center;
+            border: none;
+            font-size: 1.8rem;
+            color: white;
+            background-color: royalblue;
+            padding: 1rem;
+            border-radius: .7rem;
+            cursor: pointer;
+            outline: none;
+        }
+        
+        h3 {
+            font-size: 2.2rem;
+            align-self: center;
+            margin: 2rem 0rem;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <form>
+        <div class="form">
+            <p>Enter Your email address &DownArrow;</p>
+            <input id='email'>
+            <button type='submit' id='validate'>check for validation</button>
+            <h3 id='result'></h3>
+        </div>
+    </form>
+
+
+
+    <script type="text/email" id="user-template">
+
+
+
+    </script>
+    <script src="../js/handlebars.js"></script>
+    <script src="../js/jq.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
