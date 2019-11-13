@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sudoku</title>
+    <style>
+        *,
+        *::after,
+        *::before {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        
+        html {
+            font-size: 10px;
+        }
+        
+        body {
+            font-family: sans-serif;
+            background-color: #888;
+            min-width: 950px;
+        }
+        
+        .sudoku-body {
+            width: 60rem;
+            height: 60rem;
+            border: 1px solid #000;
+            margin: 10rem auto;
+        }
+        
+        #output {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .box-parent {
+            width: 33.33%;
+            height: 33.33%;
+            float: left;
+            border: 1px solid #000;
+        }
+        
+        .box-child {
+            width: 33.33%;
+            height: 33.33%;
+            border: 1px solid #333;
+            float: left;
+        }
+        
+        .number {
+            width: 100%;
+            height: 100%;
+            border: none;
+            text-align: center;
+            list-style: 3rem;
+            font-size: 3rem;
+            background-color: rgb(233, 233, 233);
+        }
+        
+        .board {
+            font-size: 3rem;
+            position: absolute;
+            top: 5%;
+            left: 50%;
+            transform: translatex(-50%);
+            text-transform: capitalize;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="board">lets play sudoku !</div>
+    <div class="sudoku-body">
+        <div id="output"></div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

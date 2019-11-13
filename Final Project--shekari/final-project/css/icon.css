@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../icon/icomoon.eot?7esbhn');
+    src: url('../icon/icomoon.eot?7esbhn#iefix') format('embedded-opentype'), url('../icon/icomoon.ttf?7esbhn') format('truetype'), url('../icon/icomoon.woff?7esbhn') format('woff'), url('../icon/icomoon.svg?7esbhn#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+    content: "\e900";
+}
+
+.icon-cancel:before {
+    content: "\e901";
+}
+
+.icon-home:before {
+    content: "\e902";
+}
+
+.icon-home3:before {
+    content: "\e903";
+}
+
+.icon-connection:before {
+    content: "\e91b";
+}
+
+.icon-cart:before {
+    content: "\e93a";
+}
+
+.icon-phone:before {
+    content: "\e942";
+}
+
+.icon-display:before {
+    content: "\e956";
+}
+
+.icon-mobile2:before {
+    content: "\e959";
+}
+
+.icon-user:before {
+    content: "\e971";
+}
+
+.icon-user-tie:before {
+    content: "\e976";
+}
+
+.icon-cross:before {
+    content: "\ea0f";
+}
+
+.icon-checkmark:before {
+    content: "\ea10";
+}
+
+.icon-checkmark2:before {
+    content: "\ea11";
+}
+
+.icon-embed:before {
+    content: "\ea7f";
+}
+
+.icon-facebook2:before {
+    content: "\ea91";
+}
+
+.icon-telegram:before {
+    content: "\ea95";
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+.icon-android:before {
+    content: "\eac0";
+}
+
+.icon-windows8:before {
+    content: "\eac2";
+}
+
+.icon-pinterest:before {
+    content: "\ead1";
+}
+
+.icon-chrome:before {
+    content: "\ead9";
+}
+
+.icon-firefox:before {
+    content: "\eada";
+}
+
+.icon-IE:before {
+    content: "\eadb";
+}
+
+.icon-file-pdf:before {
+    content: "\eadf";
+}
